@@ -9,11 +9,6 @@
         "16": "noun_boston_164718.png"
       }
     },
-    "page_action": {
-
-    },
-
-    
     "background": {
       "scripts": ["background.js"],
       "persistent": false
