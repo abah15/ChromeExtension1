@@ -1,0 +1,22 @@
+{
+    "name": "Northeastern Launcher",
+    "version": "1.0",
+    "description": "Links",
+    "permissions": ["storage"],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "noun_boston_164718.png"
+      }
+    },
+    "page_action": {
+
+    },
+
+    
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "manifest_version": 2
+  }
