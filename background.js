@@ -1,7 +1,4 @@
-chrome.runtime.onInstalled.addListener(function () {
-    chrome.storage.sync.set({
-        color: '#3aa757'
-    }, function () {
-        console.log("Event has been added");
-    });
-});
+function openInNewTab(url) {
+    var win = window.open(url, '_blank');
+    win.focus();
+  }

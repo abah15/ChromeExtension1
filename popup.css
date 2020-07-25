@@ -1,6 +1,7 @@
 html, body {
-    width: 500px;
-    height: 200px;
+    width: 135px;
+    height: 100px;
+    display: flex;
   }
   
   .hidden {
@@ -8,19 +9,20 @@ html, body {
   }
   
   .button {
-    margin: 3% auto;
-    padding: 4px;
-    text-align: center;
-    font-size: 1.5em;
+    margin: 3px;
+    padding: 3px;
+    text-align: left;
+    font-size: 10px;
     cursor: pointer;
   }
   
-  .beast:hover {
-    background-color: #CFF2F2;
+  .button:hover {
+    background-color: #A7B4C9;
+    transform: scale(1.1);
   }
   
-  .beast {
-    background-color: #E5F2F2;
+  .button {
+    background-color: #ffffff;
   }
   
   .reset {
